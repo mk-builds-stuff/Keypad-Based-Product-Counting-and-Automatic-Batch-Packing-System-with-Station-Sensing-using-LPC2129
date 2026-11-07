@@ -69,7 +69,7 @@ unsigned int keyscan(void){
     else
         col_val=3;
     
-    delay_milliseconds(150);
+    delay_milliseconds(250);//To avoid debouncing
     while((c0 && c1 && c2 && c3)==0);
     return key_lut[row_val][col_val];
 }
