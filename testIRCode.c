@@ -3,8 +3,8 @@
 
 #define al_led1 1<<8
 #define al_led2 1<<9
-#define ir1 1<<14
-#define ir2 1<<15
+#define ir1 1<<16
+#define ir2 1<<14
 
 int main()
 {
